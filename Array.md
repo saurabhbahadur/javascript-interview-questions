@@ -1,20 +1,69 @@
-<h1 align="center" > JavaScript Quick Revision notes </h1> 
-In this Repository I am making notes for interviews of javascript and for those who want to do revision before going for any exam or interview. 
+<h1 align="center"> Array in JavaScript</h1>
+<p align="center" > () </p>
 
+### Introduction
++ Linear Collection of things
+    ```js
+        let city = ["Lucknow","Delhi","Noida"];
+        console.log(city);
+        let arr = [];
+    ```
+
+### Arrays Methods
+
++ Push method
+    + add to end
+
+    ```js
+        city.push("Noida");
+        console.log(city);
+    ```
++ Pop
+    + delete from end & return it
+    ```js
+        city.pop();
+        console.log(city);
+    ```
++ Unshift
+    + add to start
+    ```js
+        city.unshift("Noida");
+        console.log(city);
+    ```
++ Shift
+    + Delete from start and returns it
+    ```js
+        city.shift();
+        console.log(city);
+    ```
++ IndexOf & Includes Method
+    + `IndexOf` returns index of something
+    ```js
+        console.log(city.indexOf("Cnb"));
+    ```
+    + `Includes` search for values
+    ```js
+        console.log(city.includes("Cnb"));
+    ```
++ Concatenation & Reverse Method
+    + `concat` merge two arrays
+    ```js
+        let city = ["Lko","Cnb","Delhi"];
+        let city2 = ["Jammu","Bengal","Tamil Nadu"];
+        console.log(city);
+
+        console.log(city.concat(city2));
+    ```
+    + `reverse` reerse an array
+    ```js
+        console.log(city.reverse());
+    ```
++ Slice Method
+    + Copies a portion of an array 
+    ```js
+        console.log(city.slice(1,3));
+    ```
 ---
-
-
-
-## Topics We cover ⬇️
-
-
-+ ### [Introduction to JavaScript](https://github.com/saurabhbahadur/javascript-interview-questions/blob/main/Introduction%20of%20JavaScript.md) 
-+ ### [String](https://github.com/saurabhbahadur/javascript-interview-questions/blob/main/String.md) 
-+ ### [Array](https://github.com/saurabhbahadur/javascript-interview-questions/blob/main/Array.md) 
-
-
----
-
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
@@ -26,8 +75,5 @@ In this Repository I am making notes for interviews of javascript and for those 
 <a href="https://www.hackerrank.com/saurabhbahadur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="saurabhbahadur" height="30" width="40" /></a>
 <a href="https://discord.gg/aQR27Bg7de" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="aQR27Bg7de" height="30" width="40" /></a>
 </p>
-
-
-
 
 ---
