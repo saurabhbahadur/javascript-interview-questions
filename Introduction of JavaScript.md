@@ -62,6 +62,19 @@
     + Truthy Value
         + Everything 
 
+### Alert
++ Alert display an alert message on the page.
+
+    ```Js
+        alert("You entered wrong password");
+    ```
+
+### Prompt
++ Prompt display a dialog box.
+
+    ```Js
+        prompt("Please enter your Mobile Number");
+    ```
 
 ---
 
